@@ -15,7 +15,7 @@ for i in range(k - 1):
 
 M = str()
 for i in range(n):
-    M += MIN[i] + ' '
+    M += str(MIN[i]) + ' '
 
 f = open('output.txt', 'w')
 print(M, file = f)
