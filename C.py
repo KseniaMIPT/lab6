@@ -7,7 +7,7 @@ min = 999
 
 for i in range(len(A) - 1):
     for j in range(i + 1, len(A)):
-        if A[i] == A[j]:
+        if (A[i] == A[j]*(-1)) and (A[i] < 0):
             x = j - i
             if x < min:
                 min = x
